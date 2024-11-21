@@ -1,4 +1,3 @@
-
 {
     "functions": {
       "api/*.php": {
@@ -7,11 +6,5 @@
     },
     "routes": [
       { "src": "/(.*)",  "dest": "/api/index.php" }
-    ],
-    "env": {
-        "PGHOST": "ep-gentle-union-a2gd7lc9.eu-central-1.aws.neon.tech",
-        "PGDATABASE": "arturPacutsDatabase",
-        "PGUSER": "arturPacutsDatabase_owner",
-        "PGPASSWORD": "GkYoHye58LrP"
-    }
+    ]
   }
