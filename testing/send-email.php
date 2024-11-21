@@ -12,7 +12,7 @@ use PHPMailer\PHPMailer\SMTP;
 
 $mail = new PHPMailer(true);
 
-// $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+$mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
 $mail->isSMTP();
 $mail->SMTPAuth = true;
@@ -25,13 +25,13 @@ $mail->Username = "arturcontactform@gmail.com";
 $mail->Password = "moto ycad nxac ifhs";
 
 $mail->setFrom($email, $name);
-$mail->addAddress("arturcontactform0@gmail.com", "Artur");
+$mail->addAddress("arturcontactform@gmail.com", "Artur");
 
 $mail->Subject = $subject;
 $mail->Body = $message;
 
 $mail->send();
  
-echo "Email sent successfully";
+header("Location: index.html");
 
 ?>
