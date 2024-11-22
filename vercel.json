@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/(.*)",  "destination": "/api/index.html" }
+    { "src": "/(.*)",  "dest": "/api/index.html" }
   ]
   
 }
