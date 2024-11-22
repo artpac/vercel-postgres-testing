@@ -32,6 +32,6 @@ $mail->Body = $message;
 
 $mail->send();
  
-header("Location: index.html");
+echo "Message has been sent";
 
 ?>
