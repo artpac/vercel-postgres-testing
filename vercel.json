@@ -5,7 +5,10 @@
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/api/index.html" }
-    ]
+      { "src": "/(.*)",  "dest": "/api/send.php" }
+    ],
+    "redirects": [
+    { "source": "/(.*)", "destination": "/api/index.html", "permanent": true }
+  ]
   }
 
