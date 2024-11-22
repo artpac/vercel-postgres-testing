@@ -1,14 +1,14 @@
-{
-  "builds": [
-    {
-      "src": "api/index.php",
-      "use": "@vercel/php"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    }
-  ]
-}
+// {
+//   "builds": [
+//     {
+//       "src": "api/index.php",
+//       "use": "@vercel/php"
+//     }
+//   ],
+//   "routes": [
+//     {
+//       "src": "/api/(.*)",
+//       "dest": "/api/$1"
+//     }
+//   ]
+// }
