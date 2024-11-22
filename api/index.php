@@ -1,5 +1,5 @@
 <?php
 
-phpinfo();
+header("Location: ../src/index.html");
 
 ?>
