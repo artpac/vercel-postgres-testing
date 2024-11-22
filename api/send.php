@@ -1,5 +1,4 @@
 <?php
-header("Location: page.html");
 
 $name = $_POST["name"];
 $email = $_POST["email"];
@@ -33,6 +32,6 @@ $mail->Body = $message;
 
 $mail->send();
  
-header("Location: page.html");
+header("Location: index.html");
 
 ?>
