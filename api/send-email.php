@@ -1,4 +1,5 @@
 <?php
+header("Location: index.html");
 
 $name = $_POST["name"];
 $email = $_POST["email"];
@@ -24,7 +25,7 @@ $mail->Port = 587;
 $mail->Username = "arturcontactform@gmail.com";
 $mail->Password = "moto ycad nxac ifhs";
 
-$mail->setFrom($email, $name);
+$mail->addReplyTo($email, $name);
 $mail->addAddress("arturcontactform@gmail.com", "Artur");
 
 $mail->Subject = $subject;
