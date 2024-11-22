@@ -6,6 +6,6 @@
   },
   "routes": [
     { "src": "/(.*)",
-    "dest": "/random/index.html" }
+    "dest": "/src/index.html" }
   ]
 }
